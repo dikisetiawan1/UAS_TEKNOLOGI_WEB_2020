@@ -1,0 +1,272 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(img/leaves.png);
+
+
+}
+
+.container {
+	width: 950px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.container-service {
+	width: 950px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.container-service img {
+	width: 950px;
+	height: 400px;
+	margin-top: 4px;
+}
+
+.content-service ul li img {
+	width: 190px;
+	height: 80px;
+
+
+}
+
+.header-service {
+	padding: 10px;
+	background-color: salmon;
+
+}
+
+.header-service .judul {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -5px;
+
+
+}
+
+
+.header {
+	padding: 20px;
+	background-color: salmon;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -5px;
+
+
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: -3px;
+	margin-right: 10px;
+	float: right;
+
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 5px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+
+.hero {
+	height: 400px;
+	background-image: url(img/Honda5.jpg);
+	background-size: cover;
+	background-position: 0 -110px;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+	margin-top: -30px;
+}
+
+
+
+.main {
+	width: 950px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: lightgray;
+
+}
+
+.main img {
+	float: left;
+	padding-right: 10px;
+	padding: 30px;
+}
+
+.main a {
+	text-decoration: none;
+	padding: 10px;
+	background-color: salmon;
+	color: white;
+}
+
+.main a:hover {
+	background-color: lightblue;
+	color: salmon;
+}
+
+.main h2 {
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	font-family: arial;
+}
+
+
+.about {
+	text-align: center;
+	padding: 60px;
+
+}
+
+.about h2 {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: arial;
+	margin-top: -3px;
+}
+
+.about p {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.sidebar {
+	width: 950px;
+	padding-bottom: 100px;
+
+
+}
+
+.sidebar h1 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.sidebar ul li {
+	display: inline-block;
+}
+
+.sidebar ul li img {
+	width: 190px;
+	height: 120px;
+	margin-right: 20px;
+	margin-left: 60px;
+	margin-top: 40px;
+
+
+}
+
+.sidebar ul li a {
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-right: 60px;
+	text-decoration: none;
+	padding: 10px;
+	background-color: salmon;
+	color: white;
+
+
+}
+
+.sidebar ul li a:hover {
+	background-color: lightblue;
+	color: salmon;
+}
+
+/* alamat */
+.adress {
+	width: 950px;
+	background-color: lightgray;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kontak {
+	width: 500px;
+	margin-left: 100px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	box-sizing: border-box;
+
+
+}
+
+.kontak ul i {
+	display: block;
+
+}
+
+.kontak h1 {
+	font-weight: bold;
+	font-size: 28px;
+	font-family: arial;
+	text-align: center;
+}
+
+.footer {
+	width: 950px;
+	height: 50px;
+	background-color: salmon;
+}
+
+.footer .copy {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 1px;
+	color: black;
+}
+
+.back {
+
+	text-align: center;
+	padding: 20px;
+	margin-top: -10px;
+}
+
+.back a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	margin-top: -10px;
+}
+
+
+
+/*clear fix*/
+.cf:before,
+.cf:after {
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
